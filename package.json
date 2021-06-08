@@ -1,0 +1,27 @@
+{
+  "name": "sa_practica1",
+  "version": "1.0.0",
+  "description": "practica 1",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CrisAlva25/SA_Practica1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CrisAlva25/SA_Practica1/issues"
+  },
+  "homepage": "https://github.com/CrisAlva25/SA_Practica1#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "mocha": "^9.0.0",
+    "should": "^13.2.3",
+    "supertest": "^6.1.3"
+  }
+}
