@@ -7,7 +7,7 @@ pipeline {
         
     stage('Git') {
       steps {
-        git 'https://github.com/CrisAlva25/SA_Practica1.git'
+        git 'https://github.com/CrisAlva25/SA_Practica1'
       }
     }
      
@@ -20,7 +20,7 @@ pipeline {
             
     stage('Test') {
       steps {
-        sh 'node test'
+        sh 'mocha'
       }
     }
   }
